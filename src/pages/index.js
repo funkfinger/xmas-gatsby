@@ -56,7 +56,7 @@ const IndexPage = ({ data }) => {
               <Album
                 key={currentAlbum.id}
                 album={currentAlbum}
-                size={350}
+                size={450}
                 clickAction={modalAlbum}
               />
             </div>

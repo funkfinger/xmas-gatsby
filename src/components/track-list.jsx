@@ -9,7 +9,9 @@ const TrackList = ({ tracks }) => {
           const id = nextId('track-');
           return (
             <li key={id}>
-              {track.songTitle} / {track.songArtist} [{track.songDuration}]
+              <span className="song-title">{track.songTitle}</span> /{' '}
+              <span className="song-artist">{track.songArtist}</span>{' '}
+              <span className="song-duration">[{track.songDuration}]</span>
             </li>
           );
         })}

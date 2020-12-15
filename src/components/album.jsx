@@ -6,26 +6,26 @@ const Album = ({ album, size, clickAction }) => {
     <a href={album.onSpotify} target="_blank" rel="noreferrer">
       <img
         src="../../images/spotify.png"
-        alt="listen on spotify"
-        title="listen on spotify"
+        alt="stream on Spotify"
+        title="stream on Spotify"
         className="link-logo"
       />
     </a>
   ) : (
-    <div>-</div>
+    <div></div>
   );
 
   const amazonLink = album.onAmazon ? (
     <a href={album.onAmazon} target="_blank" rel="noreferrer">
       <img
         src="../../images/amazon-music.png"
-        alt="listen on amazon"
-        title="listen on amazon"
+        alt="stream on Amazon"
+        title="stream on Amazon"
         className="link-logo"
       />
     </a>
   ) : (
-    <div>-</div>
+    <div></div>
   );
 
   console.log(album);
@@ -49,16 +49,14 @@ const Album = ({ album, size, clickAction }) => {
   );
 
   return (
-    <div className="past-album">
-      <div key={`album-${album.id}`} className="album">
-        {imageLink}
-        <h3>
-          {album.albumTitle}
-          <div className="links">
-            {spotifyLink} {amazonLink}
-          </div>
-        </h3>
-      </div>
+    <div key={`album-${album.id}`} className="album">
+      {imageLink}
+      <h2 className="album-title">
+        {album.albumTitle}
+        <div className="links">
+          {spotifyLink} {amazonLink}
+        </div>
+      </h2>
     </div>
   );
 };

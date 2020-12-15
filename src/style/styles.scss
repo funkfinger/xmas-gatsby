@@ -1,6 +1,10 @@
 $background-color: #333;
 $scrollbar-color: lighten($background-color, 20%);
 
+$colorA: red;
+$colorB: green;
+$colorC: grey;
+
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
 
 @mixin no-scroll-bar() {
@@ -36,7 +40,8 @@ html {
 }
 
 html,
-body {
+body,
+dialog {
   margin: 0;
   padding: 0;
   * {
@@ -59,6 +64,9 @@ body {
     border: 3px solid $background-color;
   }
 
+  @media only screen and (max-width: 600px) {
+    @include no-scroll-bar;
+  }
   // @include media('<=tablet') {
   //   @include no-scroll-bar;
   // }
@@ -103,7 +111,7 @@ footer {
 }
 
 main {
-  color: rgb(6, 111, 0);
+  color: $colorB;
 }
 
 footer {
@@ -118,8 +126,9 @@ footer {
 
 .album {
   font-size: 1.2em;
-  h3 {
-    filter: drop-shadow(1px 1px 3px white);
+  text-align: center;
+  .album-title {
+    filter: drop-shadow(1px 1px 2px white);
   }
 }
 
@@ -129,11 +138,11 @@ footer {
   align-items: stretch;
 }
 
-.past-album {
+.past-album,
+.current_album {
   flex: 1;
   min-width: 280px;
   margin: 1em;
-  text-align: center;
 }
 
 .track-list {
@@ -162,7 +171,7 @@ footer {
 }
 
 .album-modal {
-  max-width: 450px;
+  max-width: 600px;
   margin: 1em auto;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
@@ -183,21 +192,13 @@ button.no-style {
   outline: inherit;
 }
 
-.current-album .album-cover-art {
-  max-width: 90%;
-  height: auto;
-}
-
-.past-albums .album-cover-art {
-  max-width: 90%;
-  height: auto;
-}
-
 .album-cover-art {
   border: 3px #000 solid;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
   margin: 0 0 0 0;
+  max-width: 90%;
+  height: auto;
 }
 
 @import 'lights.scss';
@@ -211,6 +212,19 @@ button.no-style {
 }
 
 .link-logo {
-  max-height: 20px;
+  max-height: 40px;
   width: auto;
+}
+
+.track-list {
+  color: $colorC;
+}
+.track-list span.song-title {
+  color: $colorA;
+}
+.track-list span.song-artist {
+  color: $colorB;
+}
+.track-list span.song-duration {
+  color: $colorA;
 }

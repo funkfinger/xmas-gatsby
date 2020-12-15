@@ -1,0 +1,216 @@
+$background-color: #333;
+$scrollbar-color: lighten($background-color, 20%);
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+
+@mixin no-scroll-bar() {
+  &::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+  }
+
+  &::-webkit- &::-webkit-scrollbar-thumb {
+    height: 0;
+    width: 0;
+  }
+
+  &::-webkit-scrollbar-track {
+    height: 0;
+    width: 0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Mountains of Christmas', cursive;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  white-space: normal;
+  font-size: 1.2em;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: $scrollbar-color $background-color;
+  }
+
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: $scrollbar-color;
+    border-radius: 20px;
+    border: 3px solid $background-color;
+  }
+
+  // @include media('<=tablet') {
+  //   @include no-scroll-bar;
+  // }
+  background-image: linear-gradient(
+    45deg,
+    #f5c7c7 25%,
+    #fffce8 25%,
+    #fffce8 50%,
+    #f5c7c7 50%,
+    #f5c7c7 75%,
+    #fffce8 75%,
+    #fffce8 100%
+  );
+  background-size: 56.57px 56.57px;
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  z-index: 2;
+  h1 {
+    margin: 0;
+    padding: 0.5em;
+    small {
+      font-size: 0.75em;
+      display: block;
+    }
+  }
+}
+
+main,
+footer {
+  padding: 0.5em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+  color: rgb(6, 111, 0);
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 7%;
+  color: #666;
+  font-size: 0.8em;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+.album {
+  font-size: 1.2em;
+  h3 {
+    filter: drop-shadow(1px 1px 3px white);
+  }
+}
+
+.past-albums {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.past-album {
+  flex: 1;
+  min-width: 280px;
+  margin: 1em;
+  text-align: center;
+}
+
+.track-list {
+  text-align: left;
+  color: #000;
+  // display: none;
+}
+
+.show-modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.2);
+  max-height: 100%;
+  overflow: auto;
+  margin: 0 auto;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.hide-modal {
+  display: none;
+}
+
+.album-modal {
+  max-width: 450px;
+  margin: 1em auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+  .album-cover-art {
+    max-width: 70%;
+    height: auto;
+  }
+}
+
+button.no-style {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.current-album .album-cover-art {
+  max-width: 90%;
+  height: auto;
+}
+
+.past-albums .album-cover-art {
+  max-width: 90%;
+  height: auto;
+}
+
+.album-cover-art {
+  border: 3px #000 solid;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+  margin: 0 0 0 0;
+}
+
+@import 'lights.scss';
+
+.lightrope {
+  display: none;
+}
+
+.links {
+  margin: 0 0.5em;
+}
+
+.link-logo {
+  max-height: 20px;
+  width: auto;
+}

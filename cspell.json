@@ -1,0 +1,10 @@
+{
+    "version": "0.1",
+    "ignorePaths": [
+        "src/data/albums.json"
+    ],
+    "words": [
+        "idalbum",
+        "spotify"
+    ]
+}

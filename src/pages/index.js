@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from 'gatsby';
 import SEO from '../components/seo';
 import Album from '../components/album';
 import TrackList from '../components/track-list';
-import Lights from '../components/lights';
 
 import '../style/styles.scss';
 
@@ -40,8 +39,6 @@ const IndexPage = ({ data }) => {
     }
   `);
 
-  console.log(albumData.allFile.nodes);
-
   const [showModal, setShowModal] = useState(false);
   const currentAlbum = albumData.allAlbumsJson.nodes[0];
   const priorAlbums = albumData.allAlbumsJson.nodes.slice(1);
@@ -64,8 +61,24 @@ const IndexPage = ({ data }) => {
           <h1>
             <small>Carrie, Jay &amp; Wilson's</small> MERRY MERRY XMAS
           </h1>
+          <a
+            href={`https://open.spotify.com/playlist/7gHCWiuQwjU8dgDA6tIQby?si=lb1_BWdRQm6lLYDMpP4olQ`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="stream-link">
+              <div className="stream-link-icon stream-link-item">
+                <img
+                  src="../../images/spotify-white.png"
+                  alt="stream on Spotify"
+                  title="stream on Spotify"
+                  className="link-logo"
+                />
+              </div>
+              <div className="stream-link-text stream-link-item">stream them all! </div>
+            </div>
+          </a>
         </header>
-        <Lights />
         <main>
           <div className="albums">
             <div className="current-album">

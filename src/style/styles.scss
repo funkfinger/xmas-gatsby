@@ -196,7 +196,7 @@ button.no-style {
   border: 3px #000 solid;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
-  margin: 0 0 0 0;
+  margin: 0 auto;
   max-width: 90%;
   height: auto;
 }
@@ -227,4 +227,12 @@ button.no-style {
 }
 .track-list span.song-duration {
   color: $colorA;
+}
+
+.w-450 {
+  width: 450px;
+}
+
+.w-250 {
+  width: 250px;
 }

@@ -27,13 +27,29 @@ const IndexPage = ({ data }) => {
           }
         }
       }
+      allFile {
+        nodes {
+          absolutePath
+          childImageSharp {
+            fluid(maxWidth: 500, maxHeight: 500, quality: 100) {
+              ...GatsbyImageSharpFluid_noBase64
+            }
+          }
+        }
+      }
     }
   `);
+
+  console.log(albumData.allFile.nodes);
 
   const [showModal, setShowModal] = useState(false);
   const currentAlbum = albumData.allAlbumsJson.nodes[0];
   const priorAlbums = albumData.allAlbumsJson.nodes.slice(1);
   const [currentModalAlbum, setcurrentModalAlbum] = useState(currentAlbum);
+
+  const getImageById = (id) => {
+    return albumData.allFile.nodes.find(({ absolutePath }) => absolutePath.match(id));
+  };
 
   const modalAlbum = (a) => {
     setcurrentModalAlbum(a);
@@ -56,6 +72,7 @@ const IndexPage = ({ data }) => {
               <Album
                 key={currentAlbum.id}
                 album={currentAlbum}
+                albumImage={getImageById(currentAlbum.id)}
                 size={450}
                 clickAction={modalAlbum}
               />
@@ -64,7 +81,13 @@ const IndexPage = ({ data }) => {
               {priorAlbums.map((album) => {
                 return (
                   <div className="past-album" key={album.id}>
-                    <Album key={album.id} album={album} data={data} clickAction={modalAlbum} />
+                    <Album
+                      key={album.id}
+                      album={album}
+                      data={data}
+                      clickAction={modalAlbum}
+                      albumImage={getImageById(album.id)}
+                    />
                   </div>
                 );
               })}
@@ -87,7 +110,7 @@ const IndexPage = ({ data }) => {
             console.log(e.target);
           }}
         > */}
-        <dialog className={showModal ? 'show-modal' : 'hide-modal'}>
+        <div className={showModal ? 'show-modal' : 'hide-modal'}>
           {/* <div className={showModal ? 'show-modal' : 'hide-modal'}> */}
           <div className="album-modal">
             <button
@@ -103,7 +126,7 @@ const IndexPage = ({ data }) => {
             <TrackList tracks={currentModalAlbum.songs}></TrackList>
           </div>
           {/* </div> */}
-        </dialog>
+        </div>
       </div>
     </div>
   );

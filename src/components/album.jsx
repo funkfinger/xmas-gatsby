@@ -1,6 +1,7 @@
 import React from 'react';
+import Img from 'gatsby-image';
 
-const Album = ({ album, size, clickAction }) => {
+const Album = ({ album, size, clickAction, albumImage }) => {
   const coverSize = size ? size : 250;
   const spotifyLink = album.onSpotify ? (
     <a href={album.onSpotify} target="_blank" rel="noreferrer">
@@ -28,8 +29,16 @@ const Album = ({ album, size, clickAction }) => {
     <div></div>
   );
 
-  console.log(album);
-  const image = (
+  const image = albumImage ? (
+    <div style={{ width: '100%' }}>
+      <Img
+        fluid={albumImage.childImageSharp.fluid}
+        className="album-cover-art"
+        alt={album.albumTitle}
+        title={album.albumTitle}
+      />
+    </div>
+  ) : (
     <img
       alt={album.albumTitle}
       title={album.albumTitle}
@@ -41,7 +50,7 @@ const Album = ({ album, size, clickAction }) => {
   );
 
   const imageLink = clickAction ? (
-    <button onClick={() => clickAction(album)} className="no-style">
+    <button onClick={() => clickAction(album)} className={`no-style w-${coverSize}`}>
       {image}
     </button>
   ) : (

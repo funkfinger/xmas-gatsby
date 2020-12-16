@@ -36,6 +36,7 @@ const Album = ({ album, size, clickAction, albumImage }) => {
         className="album-cover-art"
         alt={album.albumTitle}
         title={album.albumTitle}
+        fit="scale-down"
       />
     </div>
   ) : (

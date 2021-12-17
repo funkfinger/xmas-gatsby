@@ -1,3 +1,11 @@
+Sometimes I need to get some audio that I can't buy - when that happens, I can sometimes get it from YouTube with something like:
+
+```
+youtube-dl -x --audio-format mp3 "https://www.youtube.com/watch?v=ylRVTolZ1XM"
+```
+
+you can brew install that and you may need other things to convert it to mp3...
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">

@@ -1,5 +1,16 @@
 [
   {
+    "id": 2021,
+    "albumImage": "https://funkfinger.com.s3.us-east-1.amazonaws.com/xmas/albums/xmas_2021/cover.png",
+    "albumTitle": "#24: Elf Note 2021",
+    "albumDownloadUrl": "",
+    "albumDownloadUrlX": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2021/2021.zip",
+    "onSpotify": "https://open.spotify.com/playlist/6zDNGus8tTLbvWb8sPH4wj?si=9ed9283ff36f4f50",
+    "onAmazon": "https://music.amazon.com/user-playlists/cf8b00c78b864fc0a96530250dda0585sune?ref=dm_sh_e117-769d-d888-acd8-c238b",
+    "songs": [{}]
+  },
+
+  {
     "id": 2020,
     "albumImage": "https://funkfinger.com.s3.us-east-1.amazonaws.com/xmas/albums/xmas_2020/cover.png",
     "albumTitle": "#23: Elf You 2020",

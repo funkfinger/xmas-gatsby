@@ -1,3 +1,9 @@
+# XMAS Albums
+
+might need to do a `nvm use node` in order to use the correct node version - depending on what computer you're at...
+
+---
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />

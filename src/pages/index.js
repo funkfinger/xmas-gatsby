@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import React, { useState } from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 
-import Album from "../components/album";
-import TrackList from "../components/track-list";
-import Lights from "../components/lights";
+import Album from '../components/album';
+import TrackList from '../components/track-list';
+import Lights from '../components/lights';
 
-import "../style/styles.scss";
+import '../style/styles.scss';
 
 const IndexPage = ({ data }) => {
   const albumData = useStaticQuery(graphql`
@@ -49,24 +49,9 @@ const IndexPage = ({ data }) => {
   const priorAlbums = albumData.allAlbumsJson.nodes.slice(1);
   const [currentModalAlbum, setcurrentModalAlbum] = useState(currentAlbum);
 
-  console.log(
-    albumData.allFile.nodes.find(({ absolutePath }) =>
-      absolutePath.match("2021")
-    )
-
-    // albumData.allAlbumsJson.nodes.find((absolutePath) =>
-    //   absolutePath.match(/2021/)
-    // )
-  );
-
   const getImageById = (id) => {
-    return albumData.allFile.nodes.find(({ absolutePath }) =>
-      absolutePath.match(String(id))
-    );
+    return albumData.allFile.nodes.find(({ absolutePath }) => absolutePath.match(String(id)));
   };
-
-  console.log(getImageById(currentAlbum.id));
-  console.log(currentAlbum.yearId);
 
   const modalAlbum = (a) => {
     setcurrentModalAlbum(a);
@@ -95,9 +80,7 @@ const IndexPage = ({ data }) => {
                   className="link-logo"
                 />
               </div>
-              <div className="stream-link-text stream-link-item">
-                stream them all!{" "}
-              </div>
+              <div className="stream-link-text stream-link-item">stream them all! </div>
             </div>
           </a>
           <Lights />
@@ -135,23 +118,22 @@ const IndexPage = ({ data }) => {
 
         <footer>
           <p>
-            All media on this website is for sampling and promotional purposes
-            and we encourage you to purchase the albums of any song you hear and
-            like. If you have rights to any of the media here (or represent
-            those who do) and feel that we have not used your media in the way
-            it was intended, please contact us (xmas [at] irk dot com) and we'll
-            remove it. Happy holidays!
+            All media on this website is for sampling and promotional purposes and we encourage you
+            to purchase the albums of any song you hear and like. If you have rights to any of the
+            media here (or represent those who do) and feel that we have not used your media in the
+            way it was intended, please contact us (xmas [at] irk dot com) and we'll remove it.
+            Happy holidays!
           </p>
         </footer>
 
-        <div className={showModal ? "show-modal" : "hide-modal"}>
+        <div className={showModal ? 'show-modal' : 'hide-modal'}>
           {/* <div className={showModal ? 'show-modal' : 'hide-modal'}> */}
           <div className="album-modal">
             <button
               onClick={() => {
-                console.log("clicked");
+                // console.log('clicked');
                 setShowModal(false);
-                console.log(showModal);
+                // console.log(showModal);
               }}
             >
               close

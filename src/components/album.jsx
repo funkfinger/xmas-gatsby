@@ -1,5 +1,5 @@
-import React from "react";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import React from 'react';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 const Album = ({ album, size, clickAction, albumImage }) => {
   const coverSize = size ? size : 250;
@@ -29,10 +29,8 @@ const Album = ({ album, size, clickAction, albumImage }) => {
     <div></div>
   );
 
-  console.log("albumImage: ", albumImage);
-
   const image = albumImage ? (
-    <div style={{ width: "100%" }}>
+    <div style={{ width: '100%' }}>
       <GatsbyImage
         image={getImage(albumImage)}
         className="album-cover-art"
@@ -45,9 +43,7 @@ const Album = ({ album, size, clickAction, albumImage }) => {
     <img
       alt={album.albumTitle}
       title={album.albumTitle}
-      src={`../../images/${album.id}/${
-        album.albumImage.match(/\d{4}\/(.*)/)[1]
-      }`}
+      src={`../../images/${album.id}/${album.albumImage.match(/\d{4}\/(.*)/)[1]}`}
       width={coverSize}
       height={coverSize}
       className="album-cover-art"
@@ -55,10 +51,7 @@ const Album = ({ album, size, clickAction, albumImage }) => {
   );
 
   const imageLink = clickAction ? (
-    <button
-      onClick={() => clickAction(album)}
-      className={`no-style w-${coverSize}`}
-    >
+    <button onClick={() => clickAction(album)} className={`no-style w-${coverSize}`}>
       {image}
     </button>
   ) : (

@@ -28,21 +28,24 @@ body {
     width: $globe-width;
     height: $globe-height;
     border-radius: 50%;
-    margin: $globe-spacing/2;
+    margin: calc($globe-spacing/2);
     display: inline-block;
     background: rgb(0, 255, 0);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgb(0, 255, 0);
+    box-shadow: 0px calc($globe-height/6) $globe-width * 2 $globe-spread
+      rgb(0, 255, 0);
     animation-name: flash-1;
     animation-duration: 2s;
     &:nth-child(2n + 1) {
       background: rgba(0, 255, 255, 1);
-      box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(0, 255, 255, 0.5);
+      box-shadow: 0px calc($globe-height/6) $globe-width * 2 $globe-spread
+        rgba(0, 255, 255, 0.5);
       animation-name: flash-2;
       animation-duration: 0.4s;
     }
     &:nth-child(4n + 2) {
       background: rgb(255, 0, 0);
-      box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgb(255, 0, 0);
+      box-shadow: 0px calc($globe-height/6) $globe-width * 2 $globe-spread
+        rgb(255, 0, 0);
       animation-name: flash-3;
       animation-duration: 1.1s;
     }
@@ -53,13 +56,13 @@ body {
       animation-duration: 1.4s;
     }
     &:before {
-      content: '';
+      content: "";
       position: absolute;
       background: #222;
       width: ($globe-width - 2);
-      height: $globe-height/3;
+      height: calc($globe-height/3);
       border-radius: 3px;
-      top: (0 - ($globe-height/6));
+      top: (0 - (calc($globe-height/6)));
       left: 1px;
     }
     &:last-child:after {
@@ -74,32 +77,38 @@ body {
   0%,
   100% {
     background: rgba(0, 247, 165, 1);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgb(0, 255, 0);
+    box-shadow: 0px calc($globe-height/6) $globe-width * 2 $globe-spread
+      rgb(0, 255, 0);
   }
   50% {
     background: rgba(0, 247, 165, $light-off-opacity);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(0, 255, 0, 0.2);
+    box-shadow: 0px calc($globe-height/6) $globe-width * 2 $globe-spread
+      rgba(0, 255, 0, 0.2);
   }
 }
 @keyframes flash-2 {
   0%,
   100% {
     background: rgba(0, 255, 255, 1);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(0, 255, 255, 1);
+    box-shadow: 0px calc($globe-height/6) $globe-width * 2 $globe-spread
+      rgba(0, 255, 255, 1);
   }
   50% {
     background: rgba(0, 255, 255, $light-off-opacity);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(0, 255, 255, 0.2);
+    box-shadow: 0px calc($globe-height/6) $globe-width * 2 $globe-spread
+      rgba(0, 255, 255, 0.2);
   }
 }
 @keyframes flash-3 {
   0%,
   100% {
     background: rgba(247, 0, 148, 1);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgb(255, 0, 0);
+    box-shadow: 0px calc($globe-height/6) $globe-width * 2 $globe-spread
+      rgb(255, 0, 0);
   }
   50% {
     background: rgba(247, 0, 148, $light-off-opacity);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(255, 0, 0, 0.2);
+    box-shadow: 0px calc($globe-height/6) $globe-width * 2 $globe-spread
+      rgba(255, 0, 0, 0.2);
   }
 }

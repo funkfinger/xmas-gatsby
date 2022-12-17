@@ -8,6 +8,29 @@ React requires later version of Node - see [https://stackoverflow.com/a/70601277
 
 #### ALSO!!!
 
+#### Build settings:
+
+```
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm install
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+```
+
+and used a custom build image: `public.ecr.aws/upline/amplify-build-images/node:latest`
+
 https://stackoverflow.com/questions/68030737/gatsby-image-not-showing-when-hosted-in-aws-amplify-but-ok-on-local-development
 
 ---

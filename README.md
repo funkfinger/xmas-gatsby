@@ -6,6 +6,10 @@ might need to do a `nvm use node` in order to use the correct node version - dep
 
 React requires later version of Node - see [https://stackoverflow.com/a/70601277/2642232](https://stackoverflow.com/a/70601277/2642232)
 
+#### ALSO!!!
+
+https://stackoverflow.com/questions/68030737/gatsby-image-not-showing-when-hosted-in-aws-amplify-but-ok-on-local-development
+
 ---
 
 <p align="center">

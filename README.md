@@ -2,6 +2,10 @@
 
 might need to do a `nvm use node` in order to use the correct node version - depending on what computer you're at...
 
+### Amplify issue-
+
+React requires later version of Node - see [https://stackoverflow.com/a/70601277/2642232](https://stackoverflow.com/a/70601277/2642232)
+
 ---
 
 <p align="center">

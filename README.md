@@ -1,5 +1,9 @@
 # XMAS Albums
 
+## exporting the playlist
+
+try this [https://exportify.net/#playlists](https://exportify.net/#playlists)
+
 might need to do a `nvm use node` in order to use the correct node version - depending on what computer you're at...
 
 ### Amplify issue-

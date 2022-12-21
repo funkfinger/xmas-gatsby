@@ -1,5 +1,160 @@
 [
   {
+    "yearId": 2022,
+    "albumImage": "",
+    "albumTitle": "#25: Elfin Ring 2022",
+    "albumDownloadUrl": "",
+    "onSpotify": "https://open.spotify.com/playlist/4AafPIqlUJ9m7XpGiX40xD?si=1ddf10eee77e427f",
+    "onAmazon": "",
+    "songs": [
+      {
+        "songTitle": "That Christmas Morning Feelin’",
+        "songArtist": "Will Ferrell,Patrick Page,Sunita Mani,Tracy Morgan,The Spirited Ensemble",
+        "songDuration": "03:02",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Groovy Xmas",
+        "songArtist": "The Linda Lindas",
+        "songDuration": "02:13",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Sally Sweet Tooth",
+        "songArtist": "Bad Bad Hats",
+        "songDuration": "02:39",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Must Be Santa - Spotify Singles Holiday",
+        "songArtist": "Kurt Vile",
+        "songDuration": "05:11",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "I'll Be Home For Christmas",
+        "songArtist": "Camila Cabello",
+        "songDuration": "02:58",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "We Three Kings - 2016 Remaster",
+        "songArtist": "Book Of Love",
+        "songDuration": "03:19",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "A Nonsense Christmas",
+        "songArtist": "Sabrina Carpenter",
+        "songDuration": "02:33",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "It's Christmas Time",
+        "songArtist": "Kadhja Bonet",
+        "songDuration": "03:23",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Linus n' Lucy (Theme from Peanuts)",
+        "songArtist": "Ginger Root",
+        "songDuration": "02:52",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Wintering",
+        "songArtist": "The 1975",
+        "songDuration": "02:45",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Snowdin Town",
+        "songArtist": "Toby Fox",
+        "songDuration": "01:16",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Cheer",
+        "songArtist": "Bishop Briggs",
+        "songDuration": "02:57",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Santa, Can’t You Hear Me - Live",
+        "songArtist": "Kelly Clarkson,Ariana Grande",
+        "songDuration": "03:45",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Secret Santa",
+        "songArtist": "salem ilese",
+        "songDuration": "02:24",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Fallen Snow",
+        "songArtist": "First Aid Kit",
+        "songDuration": "03:06",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Winter Festival",
+        "songArtist": "ConcernedApe",
+        "songDuration": "01:25",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "A Marshmallow World",
+        "songArtist": "Jessi Canning",
+        "songDuration": "02:44",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Sausage Rolls for Everyone",
+        "songArtist": "LadBaby,Ed Sheeran,Elton John",
+        "songDuration": "03:27",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "We Wish You A Merry Christmas",
+        "songArtist": "Weezer",
+        "songDuration": "01:24",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Rockin' Around The Christmas Tree",
+        "songArtist": "Sierra Ferrell",
+        "songDuration": "02:07",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Ding Dong Merrily On High (The Celebration's Starting)",
+        "songArtist": "Rend Collective",
+        "songDuration": "01:57",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Christmas is Here (feat. Late Night Alumni)",
+        "songArtist": "Kaskade,Late Night Alumni",
+        "songDuration": "02:46",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Carol of the Bells",
+        "songArtist": "Aubrey Logan",
+        "songDuration": "03:46",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Auld Lang Syne",
+        "songArtist": "James Taylor",
+        "songDuration": "03:36",
+        "songUrl": ""
+      }
+    ]
+  },
+
+  {
     "yearId": 2021,
     "albumImage": "https://s3.amazonaws.com/funkfinger.com/xmas/albums/xmas_2021/cover.png",
     "albumTitle": "#24: Elf Note 2021",

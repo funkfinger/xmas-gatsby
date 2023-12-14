@@ -6,7 +6,146 @@
     "albumDownloadUrl": "",
     "onSpotify": "https://open.spotify.com/playlist/3Q5gGb498ckoGbTRYi8Yw7?si=e76a2ae3fca041e9",
     "onAmazon": "",
-    "songs": [{}]
+    "songs": [
+      {
+        "songTitle": "Fairytale of New York (feat. Kirsty MacColl)",
+        "songArtist": "The Pogues, Kirsty MacColl",
+        "songDuration": "4:32",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Flowers In December",
+        "songArtist": "Mazzy Star",
+        "songDuration": "4:57",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Christmas Time Is Here",
+        "songArtist": "Khruangbin",
+        "songDuration": "3:26",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "The New Year",
+        "songArtist": "Death Cab for Cutie",
+        "songDuration": "4:06",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "two queens in a king sized bed",
+        "songArtist": "girl in red",
+        "songDuration": "3:10",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Auld Lang Syne",
+        "songArtist": "Andrew Bird",
+        "songDuration": "4:32",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Here We Come A-Caroling",
+        "songArtist": "Pomplamoose",
+        "songDuration": "2:47",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Christmas Treat",
+        "songArtist": "Julian Casablancas",
+        "songDuration": "3:11",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Fallen Snow",
+        "songArtist": "Au Revoir Simone",
+        "songDuration": "3:47",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "The Blizzard",
+        "songArtist": "Camera Obscura",
+        "songDuration": "4:14",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "When Christmas Comes Again",
+        "songArtist": "grentperez",
+        "songDuration": "3:17",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Christmas Everyday",
+        "songArtist": "The Frights",
+        "songDuration": "2:09",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Home Alone (with Marnik)",
+        "songArtist": "Naeleck, Vini Vici, Marnik",
+        "songDuration": "2:08",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "The Man With The Bag",
+        "songArtist": "Julie Benko",
+        "songDuration": "2:59",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "DJ Play A Christmas Song",
+        "songArtist": "Cher",
+        "songDuration": "3:29",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Getting Ready for Christmas Day",
+        "songArtist": "Paul Simon",
+        "songDuration": "4:06",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Six Cups of Eggnog",
+        "songArtist": "Larry Costa",
+        "songDuration": "2:28",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Jing-a-Ling",
+        "songArtist": "Harbour Lights",
+        "songDuration": "2:27",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "SNOWSTORM",
+        "songArtist": "The Raveonettes",
+        "songDuration": "2:31",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "The Very Best Day This Year",
+        "songArtist": "Jeff Meegan, David Tobin, Mark Armstrong, Steve…",
+        "songDuration": "2:56",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Make Way For The Holidays",
+        "songArtist": "Le Bon",
+        "songDuration": "2:58",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Los Chrismos",
+        "songArtist": "Los Bitchos",
+        "songDuration": "3:15",
+        "songUrl": ""
+      },
+      {
+        "songTitle": "Snow Candy",
+        "songArtist": "K.Will, SISTAR, BOYFRIEND",
+        "songDuration": "3:49",
+        "songUrl": ""
+      }
+    ]
   },
   {
     "yearId": 2022,
@@ -3640,7 +3779,7 @@
       },
       {
         "songTitle": "Fairytale Of New York (Featuring Kristy MacColl)",
-        "songArtist": "The Pogue",
+        "songArtist": "The Pogues",
         "songDuration": "4:35",
         "songUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_1999/13%20Fairytale%20Of%20New%20York%20(Featuring%20Kristy%20MacColl).mp3"
       },

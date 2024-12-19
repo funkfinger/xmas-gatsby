@@ -1,7 +1,16 @@
 [
   {
+    "yearId": 2024,
+    "albumImage": "images/2024/cover.png",
+    "albumTitle": "#27: COMING SOON!",
+    "albumDownloadUrl": "",
+    "onSpotify": "",
+    "onAmazon": "",
+    "songs": []
+  },
+  {
     "yearId": 2023,
-    "albumImage": "",
+    "albumImage": "images/2023/cover.png",
     "albumTitle": "#26: Bless This Elfin House 2023",
     "albumDownloadUrl": "",
     "onSpotify": "https://open.spotify.com/playlist/3Q5gGb498ckoGbTRYi8Yw7?si=e76a2ae3fca041e9",
@@ -162,14 +171,14 @@
   },
   {
     "yearId": 2022,
-    "albumImage": "",
+    "albumImage": "images/2022/cover.png",
     "albumTitle": "#25: Elfin Ring 2022",
     "albumDownloadUrl": "",
     "onSpotify": "https://open.spotify.com/playlist/4AafPIqlUJ9m7XpGiX40xD?si=1ddf10eee77e427f",
     "onAmazon": "",
     "songs": [
       {
-        "songTitle": "That Christmas Morning Feelin’",
+        "songTitle": "That Christmas Morning Feelin'",
         "songArtist": "Will Ferrell,Patrick Page,Sunita Mani,Tracy Morgan,The Spirited Ensemble",
         "songDuration": "03:02",
         "songUrl": ""
@@ -241,7 +250,7 @@
         "songUrl": ""
       },
       {
-        "songTitle": "Santa, Can’t You Hear Me - Live",
+        "songTitle": "Santa, Can't You Hear Me - Live",
         "songArtist": "Kelly Clarkson,Ariana Grande",
         "songDuration": "03:45",
         "songUrl": ""
@@ -314,10 +323,9 @@
       }
     ]
   },
-
   {
     "yearId": 2021,
-    "albumImage": "https://s3.amazonaws.com/funkfinger.com/xmas/albums/xmas_2021/cover.png",
+    "albumImage": "images/2021/cover.png",
     "albumTitle": "#24: Elf Note 2021",
     "albumDownloadUrl": "https://s3.amazonaws.com/funkfinger.com/xmas/albums/xmas_2021/2021.zip",
     "onSpotify": "https://open.spotify.com/playlist/6zDNGus8tTLbvWb8sPH4wj?si=9ed9283ff36f4f50",
@@ -472,7 +480,7 @@
 
   {
     "yearId": 2020,
-    "albumImage": "https://funkfinger.com.s3.us-east-1.amazonaws.com/xmas/albums/xmas_2020/cover.png",
+    "albumImage": "/images/2020/cover.png",
     "albumTitle": "#23: Elf You 2020",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2020/2020.zip",
     "onSpotify": "https://open.spotify.com/playlist/2KzJBx6SDzxiqdvCZ03Lmk?si=yeXuWNGDRh2GWqqVXBTVmA",
@@ -626,7 +634,7 @@
   },
   {
     "yearId": 2019,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2019/cover.png",
+    "albumImage": "/images/2019/cover.png",
     "albumTitle": "#22: Xmas Card 2019: Merry Elf'n Xmas",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2019/2019.zip",
     "songs": [
@@ -790,7 +798,7 @@
   },
   {
     "yearId": 2018,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2018/cover.jpg",
+    "albumImage": "/images/2018/cover.jpg",
     "albumTitle": "#21: Xmas Card 2018: Headbangin' Holidays",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2018/2018.zip",
     "songs": [
@@ -948,7 +956,7 @@
   },
   {
     "yearId": 2017,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2017/cover.jpg",
+    "albumImage": "/images/2017/cover.jpg",
     "albumTitle": "#20: Xmas Card 2017: Trim The Tree",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2017/2017.zip",
     "songs": [
@@ -1106,7 +1114,7 @@
   },
   {
     "yearId": 2016,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2016/cover.jpg",
+    "albumImage": "/images/2016/cover.jpg",
     "albumTitle": "#19: Xmas Card 2016: Chalk Full O' Cheer!",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2016/2016.zip",
     "songs": [
@@ -1258,7 +1266,7 @@
   },
   {
     "yearId": 2015,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2015/cover.jpg",
+    "albumImage": "/images/2015/cover.jpg",
     "albumTitle": "#18: Xmas Card 2015: JOY!",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2015/2015.zip",
     "songs": [
@@ -1410,7 +1418,7 @@
   },
   {
     "yearId": 2014,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2014/cover.jpg",
+    "albumImage": "/images/2014/cover.jpg",
     "albumTitle": "#17: Xmas Card 2014: Fa La La La La La La La La",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2014/2014.zip",
     "songs": [
@@ -1562,7 +1570,7 @@
   },
   {
     "yearId": 2013,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2013/cover.jpg",
+    "albumImage": "/images/2013/cover.jpg",
     "albumTitle": "#16: Xmas Card 2013: Sleigh the Season",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2013/2013.zip",
     "songs": [
@@ -1714,7 +1722,7 @@
   },
   {
     "yearId": 2012,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2012/cover.jpg",
+    "albumImage": "/images/2012/cover.jpg",
     "albumTitle": "#15: Xmas Card 2012: Christmastime Terror",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2012/2012.zip",
     "songs": [
@@ -1866,7 +1874,7 @@
   },
   {
     "yearId": 2011,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2011/cover.jpg",
+    "albumImage": "/images/2011/cover.jpg",
     "albumTitle": "#14: Xmas Card 2011: Christmas Bundle",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2011/2011.zip",
     "songs": [
@@ -2024,7 +2032,7 @@
   },
   {
     "yearId": 2010,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2010/cover.jpg",
+    "albumImage": "/images/2010/cover.jpg",
     "albumTitle": "#14: Xmas Card 2010: Happy Ho-Ho Holidays",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2010/2010.zip",
     "songs": [
@@ -2188,7 +2196,7 @@
   },
   {
     "yearId": 2009,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2009/cover.jpg",
+    "albumImage": "/images/2009/cover.jpg",
     "albumTitle": "#12: Xmas Card 2009: Holiday Cane-ing",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2009/2009.zip",
     "songs": [
@@ -2340,7 +2348,7 @@
   },
   {
     "yearId": 2008,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2008/cover.jpg",
+    "albumImage": "/images/2008/cover.jpg",
     "albumTitle": "#14: Xmas Card 2008: Holiday Dance-y Dance",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2008/2008.zip",
     "songs": [
@@ -2498,7 +2506,7 @@
   },
   {
     "yearId": 2007,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2007/cover.jpg",
+    "albumImage": "/images/2007/cover.jpg",
     "albumTitle": "#10: Xmas Card 2007: Xmas Sweaters",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2007/2007.zip",
     "songs": [
@@ -2662,7 +2670,7 @@
   },
   {
     "yearId": 2006,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2006/cover.jpg",
+    "albumImage": "/images/2006/cover.jpg",
     "albumTitle": "#9: Xmas Card 2006: Hung like Ornaments",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2006/2006.zip",
     "songs": [
@@ -2826,7 +2834,7 @@
   },
   {
     "yearId": 2005,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2005/cover.jpg",
+    "albumImage": "/images/2005/cover.jpg",
     "albumTitle": "#8: Xmas Card 2005: Jingle Smells",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2005/2005.zip",
     "songs": [
@@ -2990,7 +2998,7 @@
   },
   {
     "yearId": 2004,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2004/cover.jpg",
+    "albumImage": "/images/2004/cover.jpg",
     "albumTitle": "#7: Xmas Card 2004: Santa's Little Helpers",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2004/2004.zip",
     "songs": [
@@ -3154,7 +3162,7 @@
   },
   {
     "yearId": 2003,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2003/cover.jpg",
+    "albumImage": "/images/2003/cover.jpg",
     "albumTitle": "#6: Xmas Card 2003: Songs for the Steakhouse",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2003/2003.zip",
     "songs": [
@@ -3306,7 +3314,7 @@
   },
   {
     "yearId": 2002,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2002/cover.jpg",
+    "albumImage": "/images/2002/cover.jpg",
     "albumTitle": "#5: Xmas Card 2002: Oh Christmas Tree",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2002/2002.zip",
     "songs": [
@@ -3446,7 +3454,7 @@
   },
   {
     "yearId": 2001,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2001/cover.jpg",
+    "albumImage": "/images/2001/cover.jpg",
     "albumTitle": "#4: Xmas Card 2001: A Christmas Odyssey",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2001/2001.zip",
     "songs": [
@@ -3586,7 +3594,7 @@
   },
   {
     "yearId": 2000,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/2000/cover.jpg",
+    "albumImage": "/images/2000/cover.jpg",
     "albumTitle": "#3: Xmas Card 2000: Another Fruitcake",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_2000/2000.zip",
     "songs": [
@@ -3714,7 +3722,7 @@
   },
   {
     "yearId": 1999,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/1999/cover.jpg",
+    "albumImage": "/images/1999/cover.jpg",
     "albumTitle": "#2: Xmas Card 1999: Worse Than Fruitcake",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_1999/1999.zip",
     "songs": [
@@ -3854,7 +3862,7 @@
   },
   {
     "yearId": 1998,
-    "albumImage": "http://funkfinger.com.s3.amazonaws.com/xmas/images/1998/cover.jpg",
+    "albumImage": "/images/1998/cover.jpg",
     "albumTitle": "#1: Xmas Card 1998: The Begining",
     "albumDownloadUrl": "http://funkfinger.com.s3.amazonaws.com/xmas/albums/xmas_1998/1998.zip",
     "songs": [

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { StaticImage, GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 import Album from '../components/album';
 import TrackList from '../components/track-list';
@@ -11,19 +12,21 @@ const IndexPage = ({ data }) => {
   const albumData = useStaticQuery(graphql`
     query MyQuery {
       allAlbumsJson {
-        nodes {
-          id
-          yearId
-          albumTitle
-          albumDownloadUrl
-          albumImage
-          onSpotify
-          onAmazon
-          songs {
-            songArtist
-            songDuration
-            songTitle
-            songUrl
+        edges {
+          node {
+            id
+            yearId
+            albumTitle
+            albumDownloadUrl
+            albumImage
+            onSpotify
+            onAmazon
+            songs {
+              songArtist
+              songDuration
+              songTitle
+              songUrl
+            }
           }
         }
       }
@@ -45,8 +48,8 @@ const IndexPage = ({ data }) => {
   `);
 
   const [showModal, setShowModal] = useState(false);
-  const currentAlbum = albumData.allAlbumsJson.nodes[0];
-  const priorAlbums = albumData.allAlbumsJson.nodes.slice(1);
+  const currentAlbum = albumData.allAlbumsJson.edges[0].node;
+  const priorAlbums = albumData.allAlbumsJson.edges.slice(1).map(({ node }) => node);
   const [currentModalAlbum, setcurrentModalAlbum] = useState(currentAlbum);
 
   const getImageById = (id) => {

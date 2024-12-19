@@ -19,6 +19,7 @@
     "sass": "^1.83.0"
   },
   "devDependencies": {
+    "ajv": "^8.17.1",
     "prettier": "^2.8.8"
   },
   "keywords": [

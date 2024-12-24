@@ -2,11 +2,150 @@
   {
     "yearId": 2024,
     "albumImage": "images/2024/cover.jpg",
-    "albumTitle": "#27: COMING SOON!",
+    "albumTitle": "#27: Wherefore Art Thou, PRESENTS?",
     "albumDownloadUrl": "",
-    "onSpotify": "",
+    "onSpotify": "https://open.spotify.com/playlist/4I72nnOMScRf5HqMvtRptm?si=fa2b95eb912a4f3b",
     "onAmazon": "",
-    "songs": []
+    "songs": [
+      {
+        "songTitle": "Merry Christmas Party!",
+        "songArtist": "Mayer Hawthorne",
+        "songDuration": "2:23",
+        "songUrl": "https://open.spotify.com/track/5do0h1Hl6hEFbLWPAyU9QS"
+      },
+      {
+        "songTitle": "Holiday",
+        "songArtist": "Capital Cities",
+        "songDuration": "4:24",
+        "songUrl": "https://open.spotify.com/track/2qpSICTega9fGtcxNOzVlg"
+      },
+      {
+        "songTitle": "Snow",
+        "songArtist": "Bing Crosby, Peggy Lee, Danny Kaye, Trudy Stevens",
+        "songDuration": "02:43",
+        "songUrl": "https://open.spotify.com/track/3XTSSKo4x9g2Q3K3UyUOui"
+      },
+      {
+        "songTitle": "Holiday - 2024 Remaster",
+        "songArtist": "Weezer",
+        "songDuration": "3:24",
+        "songUrl": "https://open.spotify.com/track/2bvz0bvQPpXhUqBNBc1vgV"
+      },
+      {
+        "songTitle": "Snow On The Beach (feat. More Lana Del Rey) E",
+        "songArtist": "Taylor Swift, Lana Del Rey",
+        "songDuration": "3:49",
+        "songUrl": "https://open.spotify.com/track/4zmKGsrXjLmljb5fTaBTot"
+      },
+      {
+        "songTitle": "Xmas Has Been X'ed",
+        "songArtist": "NOFX",
+        "songDuration": "2:43",
+        "songUrl": "https://open.spotify.com/track/40GMBdqqTwa2A1pGZEfOxO"
+      },
+      {
+        "songTitle": "Happy Holidays",
+        "songArtist": "jschlatt",
+        "songDuration": "2:52",
+        "songUrl": "https://open.spotify.com/track/2EaGGhbMjmWCHUzIxfeKNo"
+      },
+      {
+        "songTitle": "Bells, Bows, Gifts, Trees",
+        "songArtist": "Todrick Hall",
+        "songDuration": "3:48",
+        "songUrl": "https://open.spotify.com/track/3YOsGksC4LidCVoVaXkyfe"
+      },
+      {
+        "songTitle": "cindy lou who",
+        "songArtist": "Sabrina Carpenter",
+        "songDuration": "2:01",
+        "songUrl": "https://open.spotify.com/track/15WQ0CnYIbWNCWvwp7IlYr"
+      },
+      {
+        "songTitle": "St. Stephen's Day Murders",
+        "songArtist": "The Chieftains, Elvis Costello",
+        "songDuration": "3:22",
+        "songUrl": "https://open.spotify.com/track/7ANocPWU7CYDkCTOQ1Zsun"
+      },
+      {
+        "songTitle": "Purple Snowflakes",
+        "songArtist": "Say She She",
+        "songDuration": "3:45",
+        "songUrl": "https://open.spotify.com/track/71eNUBBQoqSfpylDGvxgVm"
+      },
+      {
+        "songTitle": "Mistletoe",
+        "songArtist": "Maty Noyes",
+        "songDuration": "3:01",
+        "songUrl": "https://open.spotify.com/track/6Z0pjURlamA464rYvxhV18"
+      },
+      {
+        "songTitle": "What Christmas Means to Me",
+        "songArtist": "Ginger Root, Gabriel Gundacker",
+        "songDuration": "3:16",
+        "songUrl": "https://open.spotify.com/track/6hCf6EUU12Ltanyf8jmNm6"
+      },
+      {
+        "songTitle": "Santa in New York",
+        "songArtist": "Eamon",
+        "songDuration": "3:01",
+        "songUrl": "https://open.spotify.com/track/0TJ7ETKKasTXt2A3NgF3Wv"
+      },
+      {
+        "songTitle": "Christmas in Hollis",
+        "songArtist": "American Authors",
+        "songDuration": "2:59",
+        "songUrl": "https://open.spotify.com/track/2tgKBrQZb1mvZfRPKP7fLn"
+      },
+      {
+        "songTitle": "Christmas Time Rhyme",
+        "songArtist": "Ben Folds",
+        "songDuration": "4:33",
+        "songUrl": "https://open.spotify.com/track/1phqdqfHet6eOPUJUsgDth"
+      },
+      {
+        "songTitle": "I Want You This Christmas",
+        "songArtist": "Saweetie",
+        "songDuration": "2:55",
+        "songUrl": "https://open.spotify.com/track/1JHsB2E0FWEEBVdFV2W6w8"
+      },
+      {
+        "songTitle": "Caroling",
+        "songArtist": "Fitz and The Tantrums",
+        "songDuration": "2:41",
+        "songUrl": "https://open.spotify.com/track/2Xa7nNM1QQEcwDe3v9aabn"
+      },
+      {
+        "songTitle": "It's Beginning To Look A Lot Like Christmas",
+        "songArtist": "Matthew Ifield",
+        "songDuration": "3:14",
+        "songUrl": "https://open.spotify.com/track/2Jaa4hkzxvSFM7hg2FqJAT"
+      },
+      {
+        "songTitle": "Feliz Navidad (with The Simpsons)",
+        "songArtist": "Andrea Bocelli, Matteo Bocelli, Virginia Bocelli, The Simpsons",
+        "songDuration": "2:02",
+        "songUrl": "https://open.spotify.com/track/4xBS1p60I9p8TxbBVcTrOQ"
+      },
+      {
+        "songTitle": "Carol of the Drum (Little Drummer Boy)",
+        "songArtist": "The Polyphonic Spree",
+        "songDuration": "4:10",
+        "songUrl": "https://open.spotify.com/track/4HQ6N8rrh7xu1dMzVeI9b4"
+      },
+      {
+        "songTitle": "Up On The Housetop",
+        "songArtist": "gay hollywood, Beau Cassidy",
+        "songDuration": "2:15",
+        "songUrl": "https://open.spotify.com/track/1gjaPwuV9ZVUOGMTbWFIqI"
+      },
+      {
+        "songTitle": "Be A Child At Christmas Time",
+        "songArtist": "Doris Day",
+        "songDuration": "2:20",
+        "songUrl": "https://open.spotify.com/track/2LbHNkJz6fNNtlMdPq272c"
+      }
+    ]
   },
   {
     "yearId": 2023,
